@@ -1,0 +1,36 @@
+{% extends 'users/base.html' %}
+{% block content %}
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<head>
+  <meta charset="UTF-6">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <header id="showcase" class="container">
+    <h2>Welcome Its a Demo page</h2>
+    <h3> {{ user.username }} </h3>
+  </header><br><br>
+  <div id="content" class="container">
+    The main difference between a homepage and a landing page is that the homepage has dozens of possible distractions.
+    In contrast, the landing pages are extremely focused on conveying a specific action, and directing users to a
+    particular direction. It is a well-known fact by now that having fewer links on your landing page increases
+    conversions, as there are fewer alluring clickables that’ll distract visitors away from your call to action.
+
+    Sure, the homepage is the one showing off the brand, letting people explore a range of products, and also offering
+    additional info about the company and its values. From here, a visitor can go anywhere – apply for a job, read some
+    press releases, review the terms of service, post on the community boards, et cetera. Therefore, they won’t
+    necessarily have to make a purchase.
+
+    And so, here is where the landing page comes in handy. Paired with smart ads that promote a particular and single
+    offer with a specific message, everything about it works hard to turn mere visitors into customers.
+
+  </div>
+</body>
+
+</html>
+{% endblock %}
